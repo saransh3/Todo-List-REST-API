@@ -74,6 +74,11 @@ docker run -d -p 27017:27017 --name mongodb mongo
 node index.js
 
 **Docker Setup**
+--Change values under docker-compose.yml--
+MONGO_URI=Your_link
+JWT_SECRET=your_jwt_secret
+PORT=3000
+
 1. Build the containers:
 docker-compose build
 
