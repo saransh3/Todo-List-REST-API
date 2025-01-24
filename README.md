@@ -50,8 +50,8 @@ cron.schedule('* * * * *', async () => {
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/todo-list-api.git
-cd todo-list-api
+git clone https://github.com/your-username/Todo-List-REST-API.git
+cd Todo-List-REST-API
 
 ### 2. Install Dependencies
 
